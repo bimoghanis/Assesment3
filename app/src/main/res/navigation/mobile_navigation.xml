@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_listCatatan">
+
+    <fragment
+        android:id="@+id/navigation_listCatatan"
+        android:name="com.pt2.assesment3.ui.listcatatan.ListCatatanFragment"
+        android:label="@string/title_listCatatan"
+        tools:layout="@layout/fragment_listcatatan">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_Tambah"
+        android:name="com.pt2.assesment3.ui.tambahCatatan.TambahCatatanFragment"
+        android:label="@string/title_Tambah"
+        tools:layout="@layout/fragment_tambah" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.pt2.assesment3.ui.deletecatatan.DeleteCatatanFragment"
+        android:label="@string/title_delete"
+        tools:layout="@layout/fragment_deletecatatan" />
+
+    <fragment
+        android:id="@+id/navigation_solat"
+        android:name="com.pt2.assesment3.ui.solat.JadwalSolatFragment"
+        android:label="@string/solat"
+        tools:layout="@layout/fragment_jadwalsolat"/>
+
+
+</navigation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_listCatatan"
+        android:icon="@drawable/ic__notes"
+        android:title="@string/title_listCatatan" />
+
+    <item
+        android:id="@+id/navigation_Tambah"
+        android:icon="@drawable/tombol_tambah"
+        android:title="@string/title_Tambah" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/title_delete" />
+
+    <item
+        android:id="@+id/navigation_solat"
+        android:icon="@drawable/ic_about"
+        android:title="@string/solat" />
+
+</menu>

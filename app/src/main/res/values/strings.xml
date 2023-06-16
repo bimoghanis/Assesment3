@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CatatKeun</string>
+    <string name="title_listCatatan">List Catatan</string>
+    <string name="title_Tambah">Tambah</string>
+    <string name="title_delete">Delete</string>
+    <string name="about_title">APLIKASI CATATAN SEDERHANA</string>
+    <string name="about_nim">NIM : 6706213048</string>
+    <string name="about_nama">NAMA : BIMO GHANIS SURYA PUTRA WIBOWO</string>
+    <string name="about">About</string>
+    <string name="title_solat">About</string>
+    <string name="solat">Solat</string>
+</resources>
